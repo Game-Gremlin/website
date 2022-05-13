@@ -95,7 +95,7 @@ const Header = ({
               >
                 <span className="screen-reader">Menu</span>
                 <span className="hamburger">
-                  <span className="hamburger-inner"></span>
+                  <span className="hamburger-inner"/>
                 </span>
               </button>
               <nav
@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <a href="https://discord.gg/rAcs4vz7Zw" onClick={closeMenu}>Support</a>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +120,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="/download" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Download</Link>
                       </li>
                     </ul>}
                 </div>

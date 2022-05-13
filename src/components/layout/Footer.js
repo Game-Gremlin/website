@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Logo from './partials/Logo';
-import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
 
 const propTypes = {
@@ -44,8 +43,8 @@ const Footer = ({
             <FooterSocial />
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
-            <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://cruip.com">Cruip</a>. All right reserved</div>
+            <div>Icons by <a target="_blank" rel="noopener noreferrer" href="https://icons8.com">Icons8</a></div>
+            <div className="footer-copyright">Made by Game Gremlin, LLC. All right reserved</div>
           </div>
         </div>
       </div>
