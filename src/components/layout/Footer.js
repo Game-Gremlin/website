@@ -44,7 +44,8 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <div>Icons by <a target="_blank" rel="noopener noreferrer" href="https://icons8.com">Icons8</a></div>
-            <div className="footer-copyright">Made by Game Gremlin, LLC. All right reserved</div>
+            <div className="footer-copyright">Made by Game Gremlin, LLC. Template by <a target="_blank" rel="noopener noreferrer" href="https://cruip.com/">Cruip</a>.
+              All right reserved</div>
           </div>
         </div>
       </div>
