@@ -110,7 +110,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video={`https://player.twitch.tv/?video=1431662933&parent=${window.location.hostname}`}
+            video="https://player.vimeo.com/video/710637302?h=0ff443d867&badge=0&autopause=0&player_id=0&app_id=58479"
             videoTag="iframe" />
         </div>
       </div>
