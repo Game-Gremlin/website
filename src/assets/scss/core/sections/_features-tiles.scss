@@ -9,6 +9,14 @@
 		padding-bottom: $features-tiles-header--padding__mobile;
 	}
 
+	.features-tiles-item-content {
+		margin-top: 8px;
+	}
+
+	.features-tiles-item-header span[role=img] {
+		font-size: 64pt;
+	}
+
 	.tiles-wrap {
 		@if ( $features-tiles-items--padding__mobile != null ) {
 			margin-right: -($features-tiles-items--padding__mobile * 0.5);

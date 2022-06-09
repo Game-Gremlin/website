@@ -53,7 +53,7 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <span role="img" aria-labelledby="feature-game-controller" style={{fontSize: "64pt"}}>
+                  <span role="img" aria-labelledby="feature-game-controller">
                     🎮
                   </span>
                 </div>
@@ -71,7 +71,7 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <span role="img" aria-labelledby="feature-audio" style={{fontSize: "64pt"}}>
+                  <span role="img" aria-labelledby="feature-audio">
                     🔊
                   </span>
                 </div>
@@ -89,7 +89,7 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <span role="img" aria-labelledby="feature-video" style={{fontSize: "64pt"}}>
+                  <span role="img" aria-labelledby="feature-video">
                     📺
                   </span>
                 </div>
