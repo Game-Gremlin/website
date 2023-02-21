@@ -120,7 +120,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="/download" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Download</Link>
+                        <Link to="/download.html" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Download</Link>
                       </li>
                     </ul>}
                 </div>

@@ -38,7 +38,7 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute exact path="/download" component={Download} layout={LayoutDefault} />
+          <AppRoute exact path="/download.html" component={Download} layout={LayoutDefault} />
           <AppRoute exact path="/twitch-ext-config" component={Download} layout={LayoutDefault} />
           <AppRoute component={Home} layout={LayoutDefault} />
         </Switch>
